@@ -20,7 +20,7 @@ optional arguments:
   -o   out file name, and is should be end with '.svg'.
   -tp  type of data, and it defaults to 'p' ('p':Protein, 'n':Nucler, 'd':Disease).
   -l   labels of different FASTA files, and it should use with -f.
- ```
+```
 ### example
 ```
 $ easybioplot weblogo -d t1.txt -o t1.svg -tp p
@@ -35,7 +35,7 @@ optional arguments:
   -sq  sequence, and it can not use with -d.
   -o   out file name, and is should be end with '.svg'.
   -r   reduce amino acid code, and it should be split by '-', such as 'LVIMCAGSTPFYW-EDNQKRH'.
- ```
+```
 ### example
 ```
 $ easybioplot reduce -d t2.txt -o t2 -r LVIMCAGSTPFYW-EDNQKRH
@@ -45,3 +45,14 @@ $ easybioplot reduce -sq KVFGRCELAAAMKRHGLDNYRGYSLGNWVCAAKFESNFNTQA -o t2 -r LVI
 You can use EasyBioPlot by installing EasyBioPlot in Linux.
 
 ![avatar](/imgs/EasyBioPlot3.gif)
+
+### Command
+```
+from easybioplot import Weblogo as iweb
+from easybioplot import Reduce as ired
+
+iweb.weolobo(file='t1.txt', out='t1.svg', tp='p')
+iweb.weolobo_multy(folder='t3', out='t3.svg', tp='p', label=['1','2','3','4','5','6'])
+ired.reduce(file='t2.txt', out='t2', raa='LVIMCAGSTPFYW-EDNQKRH')
+ired.reduce(sq='KVFGRCELAAAMKRHGLDNYRGYSLGNWVCAAKFESNFNTQA', out='t2', raa='LVIMCAGSTPFYW-EDNQKRH')
+```
