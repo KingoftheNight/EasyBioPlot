@@ -23,8 +23,8 @@ optional arguments:
  ```
 ### example
 ```
-easybioplot weblogo -d t1.txt -o t1.svg -tp p
-easybioplot weblogo -f t3 -o t3.svg -tp p -l 1,2,3,4,5,6
+$ easybioplot weblogo -d t1.txt -o t1.svg -tp p
+$ easybioplot weblogo -f t3 -o t3.svg -tp p -l 1,2,3,4,5,6
 ```
 ### Command
 ```
@@ -38,8 +38,8 @@ optional arguments:
  ```
 ### example
 ```
-easybioplot reduce -d t2.txt -o t2 -r LVIMCAGSTPFYW-EDNQKRH
-easybioplot reduce -sq KVFGRCELAAAMKRHGLDNYRGYSLGNWVCAAKFESNFNTQA -o t2 -r LVIMCAGSTPFYW-EDNQKRH
+$ easybioplot reduce -d t2.txt -o t2 -r LVIMCAGSTPFYW-EDNQKRH
+$ easybioplot reduce -sq KVFGRCELAAAMKRHGLDNYRGYSLGNWVCAAKFESNFNTQA -o t2 -r LVIMCAGSTPFYW-EDNQKRH
 ```
 ## Functions of EasyBioPlot-Python
 You can use EasyBioPlot by installing EasyBioPlot in Linux.
