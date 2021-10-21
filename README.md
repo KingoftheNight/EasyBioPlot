@@ -12,7 +12,7 @@ You can use EasyBioPlot by installing EasyBioPlot in Linux.
 
 ### Command
 ```
-$easybioplot weblogo [-d] FASTA_file [-f] folder_name [-o] out_name [-tp] type [-l] labels
+$ easybioplot weblogo [-d] FASTA_file [-f] folder_name [-o] out_name [-tp] type [-l] labels
 
 optional arguments:
   -d   FASTA file name with sequences of equal length, and it can not use with -f.
@@ -28,7 +28,7 @@ easybioplot weblogo -f t3 -o t3.svg -tp p -l 1,2,3,4,5,6
 ```
 ### Command
 ```
-$easybioplot reduce [-d] FASTA_file [-sq] sequence [-o] out_name [-r] raacode
+$ easybioplot reduce [-d] FASTA_file [-sq] sequence [-o] out_name [-r] raacode
 
 optional arguments:
   -d   FASTA file with single sequence, and it can not use with -sq.
