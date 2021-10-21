@@ -10,6 +10,7 @@ You can use EasyBioPlot by installing EasyBioPlot in Linux.
 
 ![avatar](/imgs/EasyBioPlot2.gif)
 
+### Command
 ```
 $easybioplot weblogo [-d] FASTA_file [-f] folder_name [-o] out_name [-tp] type [-l] labels
 optional arguments:
