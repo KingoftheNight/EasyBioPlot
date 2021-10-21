@@ -21,7 +21,7 @@ optional arguments:
   -tp  type of data, and it defaults to 'p' ('p':Protein, 'n':Nucler, 'd':Disease).
   -l   labels of different FASTA files, and it should use with -f.
  ```
-#### example
+### example
 ```
 easybioplot weblogo -d t1.txt -o t1.svg -tp p
 easybioplot weblogo -f t3 -o t3.svg -tp p -l 1,2,3,4,5,6
@@ -36,7 +36,7 @@ optional arguments:
   -o   out file name, and is should be end with '.svg'.
   -r   reduce amino acid code, and it should be split by '-', such as 'LVIMCAGSTPFYW-EDNQKRH'.
  ```
-#### example
+### example
 ```
 easybioplot reduce -d t2.txt -o t2 -r LVIMCAGSTPFYW-EDNQKRH
 easybioplot reduce -sq KVFGRCELAAAMKRHGLDNYRGYSLGNWVCAAKFESNFNTQA -o t2 -r LVIMCAGSTPFYW-EDNQKRH
