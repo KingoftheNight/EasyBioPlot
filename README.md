@@ -25,11 +25,6 @@ optional arguments:
 easybioplot weblogo -d t1.txt -o t1.svg -tp p
 easybioplot weblogo -f t3 -o t3.svg -tp p -l 1,2,3,4,5,6
 ```
-## Functions of EasyBioPlot-Python
-You can use EasyBioPlot by installing EasyBioPlot in Linux.
-
-![avatar](/imgs/EasyBioPlot3.gif)
-
 ### Command
 ```
 $easybioplot reduce [-d] FASTA_file [-sq] sequence [-o] out_name [-r] raacode
@@ -44,3 +39,7 @@ optional arguments:
 easybioplot reduce -d t2.txt -o t2 -r LVIMCAGSTPFYW-EDNQKRH
 easybioplot reduce -sq KVFGRCELAAAMKRHGLDNYRGYSLGNWVCAAKFESNFNTQA -o t2 -r LVIMCAGSTPFYW-EDNQKRH
 ```
+## Functions of EasyBioPlot-Python
+You can use EasyBioPlot by installing EasyBioPlot in Linux.
+
+![avatar](/imgs/EasyBioPlot3.gif)
