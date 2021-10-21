@@ -27,7 +27,7 @@ def parse_reduce(args):
     if args.sequence:
         ired.reduce(sq=args.sequence[0], out=args.output[0], raa=args.raacode[0])
     else:
-        ired.reduce(file=args.document[0], out=args.output[0], tp=args.raacode[0])
+        ired.reduce(file=args.document[0], out=args.output[0], raa=args.raacode[0])
     print('\nReduceSequence has been saved')
 
 # main
